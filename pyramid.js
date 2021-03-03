@@ -15,10 +15,9 @@ const pyramid = (nbBase, reverse, symbol) => {
 
 
 let str1 = pyramid(5, true, '*')
-console.log(str1 + "\n")
+console.log(str1)
 
-
-console.log(pyramid(10, false, '%') + "\n")
+console.log(pyramid(10, false, '%'))
 
 const nbBase = 15
 
